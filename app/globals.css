@@ -33,3 +33,27 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
+
+.search input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  margin-right: 8px;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* book */
+.title {
+  text-align: center;
+}
+
+.book {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}

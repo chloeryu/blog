@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <div>
           <div className="navbar">
             <Link href="/"><h1>chloe.log</h1></Link>
-            <Link href="/"></Link>
+            {/* <Link href="/list">Toggle</Link> */}
             <div className="search" >
               <input type="text" placeholder="Search" />
             </div>
