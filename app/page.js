@@ -14,7 +14,7 @@ export default function Home() {
           return (
             <div className="book" key={i}>
               <img src={'/book' + i + '.png'} className='book-img' alt="구글애드센스로 돈벌기" />
-              <h4>{책[i]}<p>글</p></h4>
+              <h4>{a}<p>글</p></h4>
             </div>
           )
         })}
