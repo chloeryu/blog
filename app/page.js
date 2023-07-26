@@ -1,6 +1,8 @@
-import Image from 'next/image'
+import Image from "next/image"
 import styles from './page.module.css'
 import Link from 'next/link'
+import 작명 from '/public/book0.png'
+
 
 export default function Home() {
   let 책 = ['구글애드센스로 돈벌기', '깃허브입문', '프론트엔드 웹 디자인 입문']
@@ -8,10 +10,11 @@ export default function Home() {
     <div>
       <h4 className="title">상품목록</h4>
       {
-        책.map(() => {
+        책.map((a, i) => {
           return (
-            <div className="book">
-              <h4>{책[0]} $40</h4>
+            <div className="book" key={i}>
+              <Image src={작명} className='book-img' alt="구글애드센스로 돈벌기" />
+              <h4>{책[i]}</h4>
             </div>
           )
         })}

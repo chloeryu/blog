@@ -47,7 +47,7 @@ body {
 /* book */
 .title {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .book {
@@ -57,4 +57,9 @@ body {
   color: black;
   padding: 20px;
   border-radius: 5px;
+}
+
+.book-img {
+  width: 100%;
+  height: auto;
 }
