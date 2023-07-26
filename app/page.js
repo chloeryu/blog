@@ -13,8 +13,8 @@ export default function Home() {
         책.map((a, i) => {
           return (
             <div className="book" key={i}>
-              <Image src={작명} className='book-img' alt="구글애드센스로 돈벌기" />
-              <h4>{책[i]}</h4>
+              <img src={'/book' + i + '.png'} className='book-img' alt="구글애드센스로 돈벌기" />
+              <h4>{책[i]}<p>글</p></h4>
             </div>
           )
         })}
