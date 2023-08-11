@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
             <div className="search" >
               <input type="text" placeholder="Search" />
             </div>
+
           </div>
 
 
